@@ -1,0 +1,7 @@
+<view>
+  <image class='background' src="https://mmbiz.qpic.cn/mmbiz_png/bz1d0u9o51XPJsSicG0exFVReC6Y8AApInJ1mpWMJibE1fMtCdaib4gcoGhmXoxsNibtLGiaakVLJIZAb7kTR9PszPA/0?wx_fmt=png" mode="aspectFill"></image>
+  
+  <image class='background3' src="https://mmbiz.qpic.cn/mmbiz_png/bz1d0u9o51WnwonmAACrmyibUlAk7zib5kaffbjibAXKGjzcgspoSXYbZ5Fp3tZtSES1IiapZg7eJTBrwb7Pa9Z4Zg/0?wx_fmt=png"></image>
+  <button bindtap="jump" type="default" style="top:1030rpx;left:125rpx;width:500rpx;position:fixed;color:darkred">进入抽取页面</button>
+
+</view>  

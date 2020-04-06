@@ -1,0 +1,24 @@
+<view>
+  <image class='background' src="https://mmbiz.qpic.cn/mmbiz_png/bz1d0u9o51XPJsSicG0exFVReC6Y8AApInJ1mpWMJibE1fMtCdaib4gcoGhmXoxsNibtLGiaakVLJIZAb7kTR9PszPA/0?wx_fmt=png" mode="aspectFill"></image>
+  <image class='background2' src="https://mmbiz.qpic.cn/mmbiz_png/bz1d0u9o51WnwonmAACrmyibUlAk7zib5k5kMIIKNlxrXe4emlXMiaGvFIlqpPaU9ffqDwY5hEPblMZYfFD4iapxiag/0?wx_fmt=png"></image>
+  <cover-image src='https://mmbiz.qpic.cn/mmbiz_gif/bz1d0u9o51WnwonmAACrmyibUlAk7zib5kc6FCfSzhIGZ6twFLCjz35UVb3SZXbprwKUhxtKUOwkLRXKXNhSYogw/0?wx_fmt=gif' hidden="{{hidden}}" class="gift"></cover-image>
+    <input class="input" type="number" placeholder="输入6个数字" bindinput="input1" maxlength="6"/>
+    <view class="avatar">
+      <open-data type="userAvatarUrl" wx:if="{{disabled2}}"></open-data>
+      <image src="https://mmbiz.qpic.cn/mmbiz_jpg/bz1d0u9o51XPJsSicG0exFVReC6Y8AApIpvmvjpAkD569M4uoguPVRFIZGia0sriahGusxQvBhSjZybV9xYPubK5A/0?wx_fmt=jpeg" style="width:100rpx;height:100rpx;" mode="aspectFill" wx:if="{{!disabled2}}"/>
+    </view> 
+  <button open-type="getUserInfo" bindgetuserinfo="getUserInfo" type="default" disabled="{{disabled2}}" style="top:900rpx;left:125rpx;width:500rpx;position:fixed;color:darkred">获取头像信息</button>
+  <button bindtap="generate" type="default" disabled="{{disabled}}" style="top:1030rpx;left:125rpx;width:500rpx;position:fixed;color:darkred">抽取元宵祝福秘语签</button>
+    
+
+  <view class='imagePathBox' hidden="{{maskHidden == false}}">
+  </view>
+  <cover-view class='baocun' bindtap='baocun' hidden="{{maskHidden == false}}">保存到相册</cover-view>
+  <cover-view class='baocun2' bindtap='baocun2' hidden="{{maskHidden == false}}">再来一签</cover-view> 
+  <view class="canvas-box" hidden="{{maskHidden == false}}">
+    <canvas  style="width:650rpx;height:1210rpx;position:fixed;left:50rpx;top:50rpx;z-index:2" canvas-id="mycanvas" ></canvas>
+  </view>
+
+</view>  
+
+

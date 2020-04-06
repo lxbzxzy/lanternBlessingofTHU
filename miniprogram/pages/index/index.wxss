@@ -1,0 +1,126 @@
+.intro {
+  text-align: center;
+}
+
+.gift{
+  position:fixed;
+  width:500rpx;
+  height:500rpx;
+  top:250rpx;
+  left:115rpx;
+  border:10rpx solid rgba(0,0,0,0.2);
+  z-index:16;
+}
+
+.container{
+  margin-top:70rpx;
+  display: flow;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+page{
+  background-image:url('https://mmbiz.qpic.cn/mmbiz_png/bz1d0u9o51V3ekicdd7DibYUia289MNzAdibUiawLXzhrZvqKlicUqLFSXjlpo2wOQMYnhr99Cf8TwiaxWxqLF8HGgqRQ/0?wx_fmt=png');
+}
+
+.avatar{    
+  width: 100rpx;  
+  height: 100rpx; 
+  position:fixed;
+  border-radius: 0%;  
+  border: 2px solid #fff;  
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+  top:750rpx;
+  left:325rpx;
+}
+
+.input{
+  background-color:snow;
+  height:100rpx;
+  text-align: center;
+  position:fixed;
+  top:600rpx;
+  width:500rpx;
+  left:125rpx;
+  border-radius: 5%
+}
+
+.password-input{  
+  width: 0;  
+  height: 0;  
+} 
+
+.background {
+  width: 100%;
+  height: 100%;
+  position:fixed; 
+  background-size:100% 100%;
+  z-index: -2;
+}
+.background2{
+  width:500rpx;
+  height:473rpx;
+  top:100rpx;
+  left:125rpx;
+  position:fixed; 
+  z-index: -1;
+}
+
+
+.imagePathBox{
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+.shengcheng{
+  width: 80%;
+  height: 80%;
+  position: fixed;
+  top: 50rpx;
+  left: 50%;
+  margin-left: -40%;
+  z-index: 10;
+}
+.baocun{
+  width: 350rpx;
+  height: 80rpx;
+  padding: 0;
+  line-height: 80rpx;
+  text-align: center;
+  position: fixed;
+  top:1080rpx;
+  left:75rpx;
+  background: #f8edd1;
+  color: #333;
+  font-size: 32rpx;
+  border:6rpx solid white;
+  z-index:15
+}
+.baocun2{
+  display:block;
+
+  width: 200rpx;
+  height: 80rpx;
+  padding: 0;
+  line-height: 80rpx;
+  text-align: center;
+  position: fixed;
+  top:1080rpx;
+  left:450rpx;
+  background: #f8edd1;
+  color: #333;
+  font-size: 32rpx;
+  border:6rpx solid white;
+  z-index:15
+}
+
+button[class="baocun"]::after{
+  border: 0;
+}
